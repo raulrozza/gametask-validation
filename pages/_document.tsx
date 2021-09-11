@@ -39,6 +39,8 @@ class MyDocument extends Document {
         return (
             <Html>
                 <Head>
+                    <meta name="theme-color" content="#852c80" />
+                    <link rel="icon" href="/favicon.ico" />
                     <link
                         rel="preconnect"
                         href="https://fonts.googleapis.com"
@@ -49,11 +51,7 @@ class MyDocument extends Document {
                         crossOrigin="anonymous"
                     />
                     <link
-                        href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap"
-                        rel="stylesheet"
-                    />
-                    <link
-                        href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap"
+                        href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&display=swap"
                         rel="stylesheet"
                     />
                 </Head>

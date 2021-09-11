@@ -22,7 +22,7 @@ ${({ theme }) => css`
     }
 
     body {
-        background-color: ${theme.palette.gray['100']};
+        background-color: ${({ theme }) => theme.palette.secondary.main};
         min-height: 100vh;
     }
 
@@ -41,6 +41,7 @@ ${({ theme }) => css`
     h5,
     h6 {
         font-family: ${theme.typography.family.title};
+        margin-bottom: ${theme.layout.spacing(3)};
     }
 `}
 `;
