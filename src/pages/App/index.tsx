@@ -82,7 +82,7 @@ const App: FC = () => {
                         Entrando no aplicativo, você pode testar suas
                         funcionalidades. Lembre de deixar a plataforma{' '}
                         <em>web</em> aberta na seleção de jogos para poder
-                        compartilhar o código de convite do jogo, ou parar ler o
+                        compartilhar o código de convite do jogo, ou para ler o
                         Código QR do mesmo. Sua missão é:
                     </p>
 
