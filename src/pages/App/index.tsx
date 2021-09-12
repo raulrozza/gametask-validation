@@ -104,7 +104,7 @@ const App: FC = () => {
                         passo.
                     </p>
 
-                    <LinkButton href="/forn">
+                    <LinkButton href="/form">
                         Terminei, vamos para o último passo!
                     </LinkButton>
                 </Container>
