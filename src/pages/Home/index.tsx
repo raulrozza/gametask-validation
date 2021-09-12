@@ -3,6 +3,7 @@ import { FC } from 'react';
 import Content from '@/components/Content';
 import Header from '@/components/Header';
 import LinkButton from '@/components/LinkButton';
+import List from '@/components/List';
 
 import { Container } from './styles';
 
@@ -30,16 +31,24 @@ const Home: FC = () => (
 
                 <h2>O que vou precisar que você faça:</h2>
 
-                <ul>
-                    <li>Crie uma conta no GameTask, e crie um jogo</li>
-                    <li>Experimente criando alguns elementos gamificados</li>
-                    <li>Baixe o Aplicativo do Gametask e entre no seu jogo</li>
-                    <li>Experimente as funcionalidades como jogador</li>
-                    <li>
+                <List>
+                    <List.Item>
+                        Crie uma conta no GameTask, e crie um jogo
+                    </List.Item>
+                    <List.Item>
+                        Experimente criando alguns elementos gamificados
+                    </List.Item>
+                    <List.Item>
+                        Baixe o Aplicativo do Gametask e entre no seu jogo
+                    </List.Item>
+                    <List.Item>
+                        Experimente as funcionalidades como jogador
+                    </List.Item>
+                    <List.Item>
                         Responda o breve formulário sobre o que achou da
                         experiência
-                    </li>
-                </ul>
+                    </List.Item>
+                </List>
 
                 <h2>E então, posso contar com você?</h2>
 

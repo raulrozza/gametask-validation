@@ -10,6 +10,8 @@ export const CustomLink = styled.a`
 
         text-decoration: none;
 
+        align-self: center;
+
         &:hover {
             box-shadow: 0px 3px 10px 1px ${theme.palette.gray['400']};
             transform: scale(1.01);
