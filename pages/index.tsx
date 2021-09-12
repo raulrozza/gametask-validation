@@ -6,7 +6,7 @@ import Home from '@/pages/Home';
 const NextHome: NextPage = () => (
     <>
         <Head>
-            <title>GameTask</title>
+            <title>GameTask - Teste da Plataforma</title>
 
             <meta
                 name="description"

@@ -43,5 +43,9 @@ ${({ theme }) => css`
         font-family: ${theme.typography.family.title};
         margin-bottom: ${theme.layout.spacing(3)};
     }
+
+    p {
+        margin-bottom: ${({ theme }) => theme.layout.spacing(2)};
+    }
 `}
 `;
