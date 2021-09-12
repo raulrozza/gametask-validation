@@ -6,6 +6,7 @@ import Content from '@/components/Content';
 import Header from '@/components/Header';
 import LinkButton from '@/components/LinkButton';
 import List from '@/components/List';
+import Progress from '@/components/Progress';
 
 import { AlertBox, Container, JumpLink } from './styles';
 
@@ -27,6 +28,8 @@ const Platform: FC = () => {
                             com o uso através do smartphone.
                         </p>
                     </AlertBox>
+
+                    <Progress step={1} />
 
                     <h2>1. Sua Missão</h2>
 
