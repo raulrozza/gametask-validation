@@ -70,6 +70,11 @@ const Platform: FC = () => {
                         a próxima etapa.
                     </p>
 
+                    <p>
+                        <strong>Não feche a plataforma ainda!</strong> Você
+                        precisará dela no próximo passo.
+                    </p>
+
                     <LinkButton href="/app">
                         Certo! Vamos para o App!
                     </LinkButton>
